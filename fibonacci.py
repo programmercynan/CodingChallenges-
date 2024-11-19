@@ -14,3 +14,5 @@ def fibonacci(n):
         prev, curr = curr, prev + curr # update previous and current values 
 
         return curr # return the nth fibonacci number 
+    
+    print(fibonacci(4)) # output: 3
