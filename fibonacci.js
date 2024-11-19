@@ -13,4 +13,7 @@ function fibonacci(n) {
         curr = prev + curr; // calculate the next fibonacci number 
         prev = temp; // update previous value to current value
     }
+
+    return curr; // return the nth fibonacci number 
  }
+ console.log(fibonacci(6));
